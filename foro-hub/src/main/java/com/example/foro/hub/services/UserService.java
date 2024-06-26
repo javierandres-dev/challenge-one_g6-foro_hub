@@ -1,6 +1,5 @@
 package com.example.foro.hub.services;
 
-import com.example.foro.hub.models.SubjectModel;
 import com.example.foro.hub.models.UserModel;
 import com.example.foro.hub.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
