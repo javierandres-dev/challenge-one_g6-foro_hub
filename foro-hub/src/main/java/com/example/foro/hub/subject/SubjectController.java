@@ -1,7 +1,5 @@
-package com.example.foro.hub.controllers;
+package com.example.foro.hub.subject;
 
-import com.example.foro.hub.models.SubjectModel;
-import com.example.foro.hub.services.SubjectService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

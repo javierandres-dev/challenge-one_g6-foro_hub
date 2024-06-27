@@ -1,7 +1,5 @@
-package com.example.foro.hub.services;
+package com.example.foro.hub.subject;
 
-import com.example.foro.hub.models.SubjectModel;
-import com.example.foro.hub.repositories.SubjectRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -27,14 +25,11 @@ public class SubjectService {
 
     public SubjectModel updateSubject(Long id, SubjectModel request) {
         SubjectModel subjectModel = subjectRepository.findById(id).get();
-
         subjectModel.setUser_id(request.getUser_id());
         subjectModel.setCourse(request.getCourse());
         subjectModel.setTitle(request.getTitle());
         subjectModel.setMessage(request.getMessage());
-
         subjectRepository.save(subjectModel);
-
         return subjectModel;
     }
 

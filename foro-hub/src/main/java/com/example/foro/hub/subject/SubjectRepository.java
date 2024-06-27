@@ -1,6 +1,5 @@
-package com.example.foro.hub.repositories;
+package com.example.foro.hub.subject;
 
-import com.example.foro.hub.models.SubjectModel;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

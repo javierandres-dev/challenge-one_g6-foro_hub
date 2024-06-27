@@ -1,4 +1,4 @@
-package com.example.foro.hub.models;
+package com.example.foro.hub.subject;
 
 import jakarta.persistence.*;
 
